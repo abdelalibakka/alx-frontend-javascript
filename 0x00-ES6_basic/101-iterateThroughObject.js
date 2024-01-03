@@ -1,4 +1,10 @@
+export default function iterateThroughObject(reportWithIterator) {
+  const employees = [];
 
-rt default function iterateThroughObject(reportWithIterator) {
-  return reportWithIterator.join(' | ');
+  // elintdisable nextline restrictedSyntax
+  for (const employee of reportWithIterator) {
+    employees.push(employee);
+  }
+
+  return employees.join(' | ');
 }
