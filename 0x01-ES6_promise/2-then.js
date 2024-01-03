@@ -1,5 +1,4 @@
-
-rt default function handleResponseFromAPI(promise) {
+exprot default function handleResponseFromAPI(promise) {
   const obj = { status: 200, body: 'success' };
   return promise
     .then(() => obj)

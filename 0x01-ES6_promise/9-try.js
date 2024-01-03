@@ -1,5 +1,4 @@
-
-rt default function guardrail(mathFunction) {
+exprot default function guardrail(mathFunction) {
   const queue = [];
   let mathFunc;
 
