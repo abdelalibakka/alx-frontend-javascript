@@ -1,5 +1,4 @@
-
-rt default function createIteratorObject(report) {
+export default function createIteratorObject(report) {
   const emps = [];
   // eslint-disable-next-line
 	for (const dep of Object.keys(report.allEmployees)) {
