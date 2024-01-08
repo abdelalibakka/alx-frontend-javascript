@@ -1,5 +1,4 @@
-t
-rt default function cleanSet(set, startString) {
+export default function cleanSet(set, startString) {
   let text = '';
   const array = [];
 
